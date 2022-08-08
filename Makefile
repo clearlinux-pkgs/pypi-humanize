@@ -1,5 +1,5 @@
 PKG_NAME := pypi-humanize
-URL = https://files.pythonhosted.org/packages/cb/77/8d28a520bc30a5a875ce341e2acd9c18ffb03d8c02116257330017394fa9/humanize-4.2.3.tar.gz
+URL = https://files.pythonhosted.org/packages/a0/0e/93e7c308611ff2ac3142dd5b1cef6bc02364affae21ba84342896470a868/humanize-4.3.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
