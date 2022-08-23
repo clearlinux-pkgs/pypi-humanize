@@ -4,7 +4,7 @@
 #
 Name     : pypi-humanize
 Version  : 4.3.0
-Release  : 14
+Release  : 15
 URL      : https://files.pythonhosted.org/packages/a0/0e/93e7c308611ff2ac3142dd5b1cef6bc02364affae21ba84342896470a868/humanize-4.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a0/0e/93e7c308611ff2ac3142dd5b1cef6bc02364affae21ba84342896470a868/humanize-4.3.0.tar.gz
 Summary  : Python humanize utilities
