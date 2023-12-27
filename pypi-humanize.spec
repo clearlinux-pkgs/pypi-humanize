@@ -7,7 +7,7 @@
 #
 Name     : pypi-humanize
 Version  : 4.9.0
-Release  : 28
+Release  : 29
 URL      : https://files.pythonhosted.org/packages/76/21/7a0b24fae849562397efd79da58e62437243ae0fd0f6c09c6bc26225b75c/humanize-4.9.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/76/21/7a0b24fae849562397efd79da58e62437243ae0fd0f6c09c6bc26225b75c/humanize-4.9.0.tar.gz
 Summary  : Python humanize utilities
