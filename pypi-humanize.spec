@@ -6,10 +6,10 @@
 # autospec commit: e36a856
 #
 Name     : pypi-humanize
-Version  : 4.12.0
-Release  : 34
-URL      : https://files.pythonhosted.org/packages/38/ff/9f38de04e15bd53f5b64d38e6b9f21357d7b3edee7e398d05aaf407dbdfe/humanize-4.12.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/38/ff/9f38de04e15bd53f5b64d38e6b9f21357d7b3edee7e398d05aaf407dbdfe/humanize-4.12.0.tar.gz
+Version  : 4.12.1
+Release  : 35
+URL      : https://files.pythonhosted.org/packages/5b/8c/4f2f0784d08a383b5de3d3b1d65a6f204cc5dc487621c91c550388d756af/humanize-4.12.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5b/8c/4f2f0784d08a383b5de3d3b1d65a6f204cc5dc487621c91c550388d756af/humanize-4.12.1.tar.gz
 Summary  : Python humanize utilities
 Group    : Development/Tools
 License  : MIT
@@ -67,10 +67,10 @@ python3 components for the pypi-humanize package.
 
 
 %prep
-%setup -q -n humanize-4.12.0
-cd %{_builddir}/humanize-4.12.0
+%setup -q -n humanize-4.12.1
+cd %{_builddir}/humanize-4.12.1
 pushd ..
-cp -a humanize-4.12.0 buildavx2
+cp -a humanize-4.12.1 buildavx2
 popd
 
 %build
@@ -78,7 +78,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1739819276
+export SOURCE_DATE_EPOCH=1739900408
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
